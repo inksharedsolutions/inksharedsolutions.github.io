@@ -517,8 +517,8 @@
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   position: absolute;
-  width: 290px;
-  height: 91.3%;
+  width: 300px;
+  height: 100%;
   top: 0;
   left: 0;
   -webkit-transform-origin: left center;
@@ -575,6 +575,7 @@
 .section-1 .w100 .book:hover .page2 {
   -webkit-transform: rotateY(-30deg) scale(1.1);
           transform: rotateY(-30deg) scale(1.1);
+  width: 340px;
   -webkit-box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 1em 3em 0 rgba(0, 0, 0, 0.2);
 }
