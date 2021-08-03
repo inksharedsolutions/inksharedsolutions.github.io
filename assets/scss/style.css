@@ -376,13 +376,21 @@
 }
 
 .section-1 .w100 .title p {
-  padding-top: 30px;
+  padding: 30px 0 50px;
   font-family: LibreFranklin-Regular, sans-serif;
   line-height: 30px;
   font-size: 18px;
 }
 
+@media (max-width: 768px) {
+  .section-1 .w100 .title p {
+    padding: 30px 0 0;
+  }
+}
+
 .section-1 .w100 .title .button-blue {
+  text-decoration: none;
+  text-align: center;
   cursor: pointer;
   margin: 100px auto 0;
   font-size: 16px;
@@ -390,8 +398,8 @@
   text-transform: uppercase;
   line-height: 15.6px;
   letter-spacing: 0.4px;
-  fill: #FFFFFF;
   color: #FFFFFF;
+  text-align: center;
   background-color: #2978D3;
   padding: 22px 47px 22px 47px;
   border-style: none;
