@@ -1,0 +1,20 @@
+@font-face {
+  font-family: LibreFranklin-Light;
+  src: url(../fonts/LibreFranklin-Light.ttf);
+}
+
+@font-face {
+  font-family: LibreFranklin-Medium;
+  src: url(../fonts/LibreFranklin-Medium.ttf);
+}
+
+@font-face {
+  font-family: LibreFranklin-Regular;
+  src: url(../fonts/LibreFranklin-Regular.ttf);
+}
+
+@font-face {
+  font-family: Merriweather-Light;
+  src: url(../fonts/Merriweather-Light.ttf);
+}
+/*# sourceMappingURL=font-style.css.map */

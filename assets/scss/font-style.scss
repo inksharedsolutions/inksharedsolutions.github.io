@@ -1,0 +1,25 @@
+@font-face {
+    font-family: LibreFranklin-Light;
+    src: url(../fonts/LibreFranklin-Light.ttf);
+}
+@font-face {
+    font-family: LibreFranklin-Medium;
+    src: url(../fonts/LibreFranklin-Medium.ttf);
+}
+@font-face {
+    font-family: LibreFranklin-Regular;
+    src: url(../fonts/LibreFranklin-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-Light;
+    src: url(../fonts/Merriweather-Light.ttf);
+}
+
+$libreLight: LibreFranklin-Light, sans-serif;
+$libreReg: LibreFranklin-Regular, sans-serif;
+$libreMed: LibreFranklin-Medium, sans-serif;
+$merri: Merriweather-Light, sans-serif;
+
+$tab : 768px;
+$cp : 450px;
