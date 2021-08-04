@@ -1,13 +1,11 @@
 $(document).ready(function(){
  
     $(".book1").click(function(){
-      $(".book1").css("transform","rotateY(180deg)"); 
+      $(".book1").toggleClass('book-flip'); 
     });
-    $(".book1").dblclick(function(){
-      $(".book1").css("transform",""); 
-   
-    });
-    
+  
+
+ 
 
     $('.fb').hover(
       function(){ $(".img-fb").toggleClass('animation') }
