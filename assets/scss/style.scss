@@ -178,7 +178,7 @@
 }
 .navbar{
   
-  max-width: 1200px;
+  max-width: 100%;
   position: relative;
   margin: 0 auto ;
   @media (max-width: 769px) {
@@ -189,19 +189,19 @@
   .container-pc{
     z-index: 99999;
     position: fixed;
-    margin-top: 50px;
+    // margin-top: 50px;
       padding:  30px 0;
       max-width:  100%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      width: 1200px;
+      width: 100%;
       background-color: #fff;
       display: flex;
 
           .logo{
-              width: 30%;
+              width: 44%;
               display: flex;
               align-items: center;
-              justify-content: center;
+              justify-content: flex-end;
             
           }
             .nav
@@ -210,7 +210,8 @@
               width: 100%;
               text-align: center;
              .menu{
-               width: 100%;
+              margin-left: 8%;
+               width: 90%;
                 display: flex;
                 align-items: center;
 
@@ -222,7 +223,7 @@
               li
               {
                 font-family: $libreReg;
-                width: 24%;
+                width: 20%;
                 display: inline;
 
                  
