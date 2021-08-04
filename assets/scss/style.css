@@ -849,6 +849,11 @@
   }
 }
 
+.section-3 .w100 .left .book-flip {
+  -webkit-transform: rotateY(180deg) !important;
+          transform: rotateY(180deg) !important;
+}
+
 .section-3 .w100 .left .book1 {
   position: relative;
   width: 383px;

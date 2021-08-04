@@ -629,6 +629,9 @@
     
           display: flex;
      justify-content: center;
+          .book-flip{
+            transform: rotateY(180deg) !important;
+          }
           .book1{
                 position: relative;
                 width: 383px;
