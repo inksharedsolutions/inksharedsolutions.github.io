@@ -22,4 +22,25 @@ $(document).ready(function(){
     )
  })
 
+ function contact(){
+  Swal.fire({
+    title: 'Successfully sent!',
+    text: '',
+    imageUrl: 'https://media.giphy.com/media/4xpB3eE00FfBm/giphy.gif',
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: 'Custom image',
+  })
+ }
+     
+ function newletter(){
+  Swal.fire({
+    title: 'Successfully sent!',
+    text: '',
+    imageUrl: 'https://media.giphy.com/media/4xpB3eE00FfBm/giphy.gif',
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: 'Custom image',
+  })
+ }
      
