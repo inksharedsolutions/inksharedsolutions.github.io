@@ -1081,10 +1081,22 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 20px;
 }
 
+@media (max-width: 768px) {
+  .section-4 .w100 .contact .left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .section-4 .w100 .contact .left .number {
+  padding-top: 10px;
   font-size: 20px;
   color: #2978D3;
 }
@@ -1105,12 +1117,26 @@
 .section-4 .w100 .contact .left h1 {
   font-size: 35px;
   padding-bottom: 30px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .section-4 .w100 .contact .left h1 {
+    text-align: center;
+  }
 }
 
 .section-4 .w100 .contact .left p {
+  text-align: left;
   font-size: 16px;
   line-height: 1.5;
   color: #888;
+}
+
+@media (max-width: 768px) {
+  .section-4 .w100 .contact .left p {
+    text-align: center;
+  }
 }
 
 .section-4 .w100 .contact .right {
