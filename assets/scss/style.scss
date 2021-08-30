@@ -242,7 +242,7 @@
       }
     }
 .section-1{
-    padding-top: 7%;
+    padding: 7% 0;
     height: 100vh;
     background: url('../img/section1-cover.jpeg') no-repeat;
     background-size: cover;
@@ -276,7 +276,7 @@
             padding-top: 160px;
             width: 80%;
             display: flex;
-            /* padding-left: 50px; */
+            /* padding-left: 50px; */ 
             text-align: left;
             flex-direction: column;
            }
@@ -288,17 +288,84 @@
           h1{
             font-family: $merri;
             font-size: 60px;
+            text-align: left;
+
+            @media (max-width:$tab) {
+            font-size: 50px;
+            text-align: center;
+            }
+
+            @media (max-width: 400px) {
+              font-size: 40px;
+            }
+
           }
+
           p{
             padding: 30px 0 50px;
             font-family: $libreReg;
             line-height: 30px;
             font-size: 18px;
+            text-align: left;
+
             @media (max-width:$tab) {
-              padding: 30px 0 0;
+              padding: 30px 0 ;
+              text-align: center;
             }
           
           }
+          .flex{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            @media (max-width: $tab) {
+              align-items: center;
+              }
+            .buy-button{
+              margin: 5px 0;
+              text-decoration: none;
+              font-size: 20px;
+              font-weight: 700;
+              padding: .35em 1em;
+              line-height: 1.7em;
+              background-color: transparent;
+              background-size: cover;
+              background-position: 50%;
+              background-repeat: no-repeat;
+              border: 2px solid;
+              border-radius: 3px;
+              -webkit-transition-duration: .2s;
+              transition-duration: .2s;
+              transition-property: all!important;
+              color: #2978D3;
+  
+              @media (max-width: $tab) {
+               margin: 5px 0;
+               }
+  
+              &:hover{
+                border: 2px solid transparent;
+                padding: .3em 2em .3em .7em;
+                background-color: rgba(0,0,0,.05);
+                .arrow{
+                  opacity: 1;
+                }
+              }
+             
+  
+            }
+            .arrow{
+              opacity: 0;
+              margin-left: 0;
+              transition: all .2s;
+  
+             
+            }
+          }
+         
+          
           .button-blue{
             text-decoration: none;
             text-align: center;
@@ -347,6 +414,9 @@
            top: 144px;
            left: 100px;
           backface-visibility: visible;
+          @media (max-width:1024px) {
+            width: 40%;    
+           }
           @media (max-width:$tab) {
            display: none;
           }
@@ -900,6 +970,18 @@
         
     }
  }
+ .disqus{
+   padding: 20px 0;
+  display: flex;
+   justify-content: center;
+  .w100{
+    width: 90%;
+    max-width: 1200px;
+    @media (max-width: 500px) {
+      width: 90%;
+    }
+  }
+ }
 /////////////////////////////////
 // FOOTER
  ////////////////////////////////////////
@@ -934,6 +1016,10 @@
         }
         img{
           width: 20%;
+          @media (max-width: 768px) {
+            width: 40%;
+            
+          }
           @media (max-width: 500px) {
             width: 90%;
             
@@ -982,7 +1068,7 @@
             .w100{
               width: 100%;
               box-sizing: border-box;
-              padding: 20px;
+              padding: 20px 0;
               display: flex;
               flex-direction: row;
               justify-content: space-between;
@@ -1087,4 +1173,8 @@ button{
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.mb-100{
+  margin-bottom:100px;
 }

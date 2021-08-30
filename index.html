@@ -67,7 +67,7 @@
   <div class="navbar">
     <div class="container-pc">
         <div class="logo">
-            <img src="./assets/img/logo.png"  href="#section-1" alt="logo" srcset="">
+          <a href="index.html">  <img src="./assets/img/logo.png"  href="index.html" alt="logo" srcset=""> </a>
         </div>
         <div class="nav">
           <ul class="menu">
@@ -94,7 +94,7 @@
            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur necessitatibus veritatis eaque sequi facere odio.
               
            </p>
-           <a class="button-blue" href="#section-3">PURCHASE</a>
+           <a class="button-blue" href="about-the-book.html">BUY NOW</a>
        </div>
        <div class="book-tab"></div>
        <div class="book">
@@ -165,33 +165,45 @@
               </div>
             </div>
             <div class="right">
-              <form action="">
+              <form    
+              action="https://formspree.io/f/mbjqoneo"
+              method="POST">
                 <h1>Contact Form</h1>
-               <div class="input"><input type="text" placeholder="Name"></div>
-               <div class="input"><input type="email"  placeholder="Email"></div>
-               <div class="input"><input type="text" placeholder="Address"></div>
+                <input type="hidden" name="author" value="Name">
+               <div class="input"><input name="fullname" type="text" placeholder="Name"></div>
+               <div class="input"><input name="email" type="email"  placeholder="Email"></div>
+               <!-- <div class="input"><input type="text" placeholder="Address"></div> -->
                <div class="input"><textarea name="message" placeholder="Message..."></textarea></div>
-               
-              </form>
+            
             </div>
           </div>
        <div class="btn">
-        <button id="contact" onclick="contact()" type="button">Submit</button>
+        <button id="contact" onclick="contact()" type="submit">Submit</button>
        </div>
+          
+      </form>
      </div>
   </section>
 
 <section class="newsletter">
    <div class="w100">
+    <form
+    action="https://formspree.io/f/mknkvenn"
+    method="POST"
+    action="/"
+  >
        <div class="header">
           <h1>Get Notified About New Books!</h1>
           <p>Subscribe to our newsletter and receive the latest tips and tricks for doing business, just as well as promo offers on this and next books penned by me!</p>
        </div>
        <div class="button">
-         <input type="text">
-         <button onclick="newletter()">Submit</button>
+         <input type="text" name="email">
+         <input type="hidden" name="author_name" value="Author Name">
+         <button type="submit" onclick="newletter()">Submit</button>
        </div>
+       </form>
    </div>
+  
 </section>
 
 

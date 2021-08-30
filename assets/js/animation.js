@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
  
     $(".book1").click(function(){
@@ -23,6 +25,7 @@ $(document).ready(function(){
  })
 
  function contact(){
+
   Swal.fire({
     title: 'Successfully sent!',
     text: '',
@@ -31,9 +34,13 @@ $(document).ready(function(){
     imageHeight: 200,
     imageAlt: 'Custom image',
   })
+  console.log('hello');
+  form.reset();
  }
      
  function newletter(){
+   
+
   Swal.fire({
     title: 'Successfully sent!',
     text: '',
@@ -42,5 +49,19 @@ $(document).ready(function(){
     imageHeight: 200,
     imageAlt: 'Custom image',
   })
+
  }
+
+
+ function defaultOnResponse(ok, setStatus, response) {
+  if (ok) {
+    setStatus("Thanks!");
+  } else {
+    try {
+      setStatus(response.data.error);
+    } catch {
+      setStatus("Oops, there was an error!");
+    }
+  }
+};
      
