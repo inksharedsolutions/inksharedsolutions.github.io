@@ -940,6 +940,12 @@
   }
 }
 
+@media (max-width: 400px) {
+  .section-3 .w100 .left {
+    width: 92%;
+  }
+}
+
 .section-3 .w100 .left .book-flip {
   -webkit-transform: rotateY(180deg) !important;
           transform: rotateY(180deg) !important;
@@ -961,7 +967,7 @@
 
 @media (max-width: 400px) {
   .section-3 .w100 .left .book1 {
-    height: 466px;
+    height: 588px;
   }
 }
 

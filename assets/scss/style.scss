@@ -697,6 +697,9 @@
           @media (max-width:$tab) {
             width: 80%;
           }
+          @media (max-width:400px) {
+            width: 92%;
+          }
     
           display: flex;
      justify-content: center;
@@ -713,7 +716,7 @@
                 transition: 0.5s;
                 
                 @media (max-width:400px) {
-                    height: 466px;
+                    height: 588px;
                 }
 
                 img{
