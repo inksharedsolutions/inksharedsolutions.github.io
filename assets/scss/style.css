@@ -1355,6 +1355,40 @@
   }
 }
 
+.terms-agreement {
+  position: relative;
+}
+
+.terms-agreement .w100 {
+  padding-top: 15%;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.terms-agreement .w100 .container {
+  padding: 0 30px 100px;
+}
+
+.terms-agreement .w100 .container h2 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.terms-agreement .w100 .container h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 26px;
+  padding-top: 50px;
+}
+
+.terms-agreement .w100 .container p {
+  white-space: pre-line;
+  font-size: 24px;
+  line-height: 36px;
+}
+
 .footer {
   background-color: #181818;
   display: -webkit-box;
